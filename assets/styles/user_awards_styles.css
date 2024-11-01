@@ -1,0 +1,88 @@
+/**
+ * Admin Specific Styles
+ */
+
+/**
+ * General
+ */
+
+.invisible-text-input {
+	border: none !important;
+	box-shadow: none !important;
+	background: none !important;
+}
+
+.no-padding-l {
+	padding-left: 0;
+}
+/**
+ * Grammar
+ */
+
+#user_awards_cpt_grammar .inside {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+#user_awards_cpt_grammar .inside .invisible-text-input{
+	flex: 0 1 auto;
+	width: 100%;
+}
+
+.award-grammar-section {
+	display: flex;
+	flex-direction: column;
+	flex: 0 2 auto;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.award-grammar-section input[type="text"] {
+	width: 100%;
+}
+
+.award-grammar-section.smaller {
+	flex: 0 1 auto;
+}
+
+.award-grammar-section label {
+	font-weight: bold;
+}
+
+.award-grammar-section.where-container {
+	flex: 0 1 80px;
+}
+
+.where-container input {
+	text-align: center;
+}
+
+#UserAwards_User_Apply {
+	margin: 15px 0px;
+}
+
+.UserAwards_Actions {
+	display: flex;
+	/*text-align: right;*/
+}
+
+.UserAwards_Actions input[type="submit"] {
+	flex: 0 1 auto;
+}
+
+.UserAwards_Actions .give-award-checkbox {
+	display: flex;
+	padding-right: 15px;
+	align-items: center;
+}
+
+.UserAwards_Actions .give-award-checkbox label {
+	flex: 0 1 80%;
+}
+
+.UserAwards_Actions .give-award-checkbox input {
+	flex: 0 1 auto;
+}
+
+/* End Admin Specific Styles */
